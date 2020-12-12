@@ -1,0 +1,96 @@
+/***HTML TAGS SELECTORS***/
+
+body{
+  background: #e6e6e6;
+  color: #535353;
+}
+
+form ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 5px;
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Chonburi';
+  margin-top: 5px;
+}
+
+
+/***CLASSES SELECTORS***/
+
+.division-content {
+  background: #ffffff;
+  margin: 20px 0 0;
+}
+
+
+.primary-nav {
+  background: #ffffff;
+}
+
+.navbar-brand img {
+  width: 50px;
+}
+
+.design {
+  height: 0;
+  margin: 0;
+
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+
+  border-top: 30px solid #ffffff;
+}
+
+.profile-description .col-xsm {
+  padding-bottom: -50px;
+}
+
+.profile_pic {
+  width: 150px;
+  border-radius: 100%;
+
+}
+
+.start img , .image-container img {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.legal_statements {
+  background: #000000;
+  margin: 20px 0 0;
+  height: 50px;
+}
+
+.legal_statements p {
+  padding-top: 10px;
+}
+
+.image-container {
+  border: 1px solid #333333;
+
+}
+
+.contact_info label, .contact_info input, .contact_info textarea {
+  width: 100%;
+  margin: 5px;
+}
+
+.contact_info .btn-secondary {
+  background: #ffffff;
+  color: inherit;
+  text-align: center;
+  height: 35px;
+}
+
+
+
+
+/***IDS SELECTORS***/
+#navbarSupportedContent ul > .nav-item > a {
+  color: inherit;
+}
