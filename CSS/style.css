@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5 {
   margin-top: 5px;
 }
 
+iframe {
+  height: 300px;
+}
+
 
 /***CLASSES SELECTORS***/
 
@@ -92,5 +96,9 @@ h1, h2, h3, h4, h5 {
 
 /***IDS SELECTORS***/
 #navbarSupportedContent ul > .nav-item > a {
-  color: inherit;
+  color: #0762D9;
+}
+
+#navbarSupportedContent ul > .nav-item > a:hover {
+  color: #031CA6;
 }
