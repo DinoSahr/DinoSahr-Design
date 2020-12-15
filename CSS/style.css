@@ -53,10 +53,29 @@ iframe {
   padding-bottom: -50px;
 }
 
-.profile_pic {
+/*.profile_pic {
   width: 150px;
   border-radius: 100%;
 
+}*/
+.card {
+  box-shadow: 0 3px 3px 3px #d0d0d0;
+}
+
+.deckers {
+  margin-bottom: 30px;
+}
+
+.new-project label, .new-project input, .new-project textarea {
+  width: 100%;
+}
+
+.profile_pic {
+  width: 120px;
+  height: 120px;
+  margin-top: -35px;
+  border-radius: 100%;
+  box-shadow: 0 3px 3px 3px #535353;
 }
 
 .start img , .image-container img {
