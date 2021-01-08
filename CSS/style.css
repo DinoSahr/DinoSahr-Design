@@ -25,19 +25,40 @@ iframe {
 
 /***CLASSES SELECTORS***/
 
+.container-fluid {
+  background: #ffffff;
+
+  width: 100%;
+  margin-top: 0;
+}
+
 .division-content {
   background: #ffffff;
   margin: 20px 0 0;
 }
 
+.division-content:hover {
+  box-shadow: 0 5px 5px 5px  #cdd0cb;
+}
 
 .primary-nav {
   background: #ffffff;
+  height: 65px;
 }
 
 .navbar-brand img {
   width: 50px;
 }
+
+.top-design {
+  height: 50px;
+  margin: 0;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+
+  border-bottom: 30px solid #ffffff;
+}
+
 
 .design {
   height: 0;
@@ -58,7 +79,7 @@ iframe {
   border-radius: 100%;
 
 }*/
-.card {
+.card:hover {
   box-shadow: 0 3px 3px 3px #d0d0d0;
 }
 
@@ -73,8 +94,12 @@ iframe {
 .profile_pic {
   width: 120px;
   height: 120px;
-  margin-top: -35px;
+
   border-radius: 100%;
+
+}
+
+.profile_pic:hover {
   box-shadow: 0 3px 3px 3px #535353;
 }
 
@@ -110,6 +135,14 @@ iframe {
   height: 35px;
 }
 
+.footer-design {
+  margin: 0;
+  height: 0;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+
+  border-bottom: 30px solid red;
+}
 
 
 
